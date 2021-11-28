@@ -30,6 +30,7 @@ body {
 }
 
 .main__title {
+    font-family: 'Comforter Brush', cursive;
     font-weight: normal;
     text-align: center;
     color: var(--color-rojo);
@@ -38,6 +39,7 @@ body {
 }
 
 .main__subtitle {
+    font-family: 'Comforter Brush', cursive;
     font-weight: normal;
     text-align: center;
     color: var(--color-negro);
@@ -71,7 +73,7 @@ body {
 
 .nav__img {
     border-radius: 50%;
-    border: 5px solid var(--color-rojo);
+    border: 2px solid var(--color-rojo);
     box-sizing: border-box;
     padding: 3px;
     max-width: 9rem;
