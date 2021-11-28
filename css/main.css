@@ -1,0 +1,80 @@
+
+:root {
+    --color-blanco: #EDE6F2;
+    --color-rojo: #F72C25;
+    --color-verde: #99C1B9;
+    --color-negro: #000;
+}
+
+/* Generales */
+
+body {
+    background-color: var(--color-blanco);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+/* Fin Generales */
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+.main__title {
+    font-weight: normal;
+    text-align: center;
+    color: var(--color-rojo);
+    font-size: 3rem;
+    margin: 0;
+}
+
+.main__subtitle {
+    font-weight: normal;
+    text-align: center;
+    color: var(--color-negro);
+    font-size: 3rem;
+}
+
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    padding: 0;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+.nav__link {
+    display: block;
+    width: 7rem;
+    transition: .3s;
+}
+.nav__link:hover {
+    filter: grayscale(100%);
+}
+
+.nav__img {
+    border-radius: 50%;
+    border: 5px solid var(--color-rojo);
+    box-sizing: border-box;
+    padding: 3px;
+    max-width: 9rem;
+}
+
+.nav__text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+/* Fin Main */
