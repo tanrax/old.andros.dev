@@ -95,6 +95,7 @@ body {
 
 .nav__subitem {
     display: flex;
+    flex-wrap: wrap;
     transform: translateX(-100vw);
     list-style: none;
     position: fixed;
@@ -144,6 +145,13 @@ body {
     left:  auto;
     right: auto;
     font-size: 3rem;
+}
+
+
+@media all and (max-width: 600px) {
+    .nav__close {
+        position: initial;
+    }
 }
 
 /* Fin Main */
