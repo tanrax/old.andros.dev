@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.8/symbiosis.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- scripts -->
+    <script src="js/alpinejs.min.js" defer></script>
 </head>
 <body>
     <main class="main">
@@ -26,7 +28,10 @@
             <h1 class="main__title">¡Hola!</h1>
             <h2 class="main__subtitle">Soy Andros Fenollosa</h2>
         </div>
-        <nav class="main__nav nav">
+        <nav
+            class="nav main__nav"
+            x-data="{ show: '' }"
+        >
             <ul class="nav__ul">
                 <li class="nav__item">
                     <a href="https://programadorwebvalencia.com/" target="_blank" target="_blank" class="nav__link">
@@ -77,12 +82,20 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" target="_blank" class="nav__link">
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="nav__link"
+                        @click.prevent="show = 'subprojects'"     
+                    >
                         <img src="img/projects.jpg" alt="Proyectos" class="nav__img">
                         <span class="nav__text">Proyectos</span>
                     </a>
                 </li>
-                <ul class="nav__subitem">
+                <ul
+                    class="nav__subitem"
+                    :class="show === 'subprojects'? 'nav__subitem--show' : ''"
+                >
                     <li class="nav__item">
                         <a href="https://www.tadam-framework.dev/" target="_blank" class="nav__link">
                             <img src="img/tadam-web-framework.jpg" alt="Tadam Web Framework" class="nav__img">
@@ -104,14 +117,20 @@
                     <li class="nav__item">
                         <a href="https://github.com/glosa" target="_blank" class="nav__link">
                             <img src="img/glosa.jpg" alt="Glosa commentary system" class="nav__img">
-                            <span class="nav__text">Glosa commentary system</span>
+                            <span class="nav__text">Glosa commentary</span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="https://github.com/tanrax/terminal-AdvancedNewFile" target="_blank" class="nav__link">
                             <img src="img/terminal-Advancednewfile.jpg" alt="Terminal AdvancedNewFile" class="nav__img">
-                            <span class="nav__text">Terminal AdvancedNewFile</span>
+                            <span class="nav__text">Advanced New File</span>
                         </a>
+                    </li>
+                    <li
+                        class="nav__close"
+                        @click.prevent="show = ''"     
+                    >
+                        <a href="https://github.com/tanrax/terminal-AdvancedNewFile" target="_blank" class="nav__link">❌</a>
                     </li>
                 </ul>
                 <li class="nav__item">
