@@ -105,6 +105,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    overflow-y: auto;
     background-color: #ffffffd9;
     padding: 1rem;
     grid-gap: 3rem;
@@ -125,6 +126,10 @@ body {
         backdrop-filter: -webkit-blur(8px);
         background-color: #fff5;
     }
+}
+
+.nav__subitem > .nav__item {
+    margin-bottom: 2rem;
 }
 
 

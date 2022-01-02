@@ -85,13 +85,7 @@
                         <span class="nav__text">Cursos</span>
                     </a>
                 </li>
-                <li class="nav__item">
-                    <a href="https://www.notion.so/Andros-Fenollosa-c857c80fe9d54afa85c089ce2d9ef771" target="_blank" class="nav__link">
-                        <img src="img/cv.jpg" alt="Curriculum Vitae" class="nav__img">
-                        <span class="nav__text">CV</span>
-                    </a>
-                </li>
-                <li class="nav__item">
+                                <li class="nav__item">
                     <a href="https://github.com/tanrax/" target="_blank" class="nav__link">
                         <img src="img/github.jpg" alt="GitHub" class="nav__img">
                         <span class="nav__text">GitHub</span>
@@ -102,7 +96,11 @@
                         href="#"
                         target="_blank"
                         class="nav__link"
-                        @click.prevent="show = 'subprojects'"     
+                        @click.prevent="(
+                        show = 'subprojects',
+                        $refs.subitemsProjects.focus(),
+                        $refs.subitemsProjects.scrollTo(0, 0)
+                        )"     
                     >
                         <img src="img/projects.jpg" alt="Proyectos" class="nav__img">
                         <span class="nav__text">Proyectos</span>
@@ -111,6 +109,7 @@
                 <ul
                     class="nav__subitem"
                     :class="show === 'subprojects'? 'nav__subitem--show' : ''"
+                    x-ref="subitemsProjects"
                 >
                     <li class="nav__item">
                         <a href="https://www.tadam-framework.dev/" target="_blank" class="nav__link">
@@ -118,6 +117,13 @@
                             <span class="nav__text">Tadam Web Framework</span>
                         </a>
                     </li>
+                    <li class="nav__item">
+                        <a href="https://t.me/important_stories_alert_hacknews/" target="_blank" class="nav__link">
+                            <img src="img/important-dev-news.jpg" alt="Important Dev News" class="nav__img">
+                            <span class="nav__text">Important Dev News</span>
+                        </a>
+                    </li>
+
                     <li class="nav__item">
                         <a href="https://github.com/tanrax/RSSPAPER" target="_blank" class="nav__link">
                             <img src="img/rsspaper.jpg" alt="RSSPAPER" class="nav__img">
@@ -159,6 +165,12 @@
                     <a href="https://twitter.com/androsfenollosa" target="_blank" class="nav__link">
                         <img src="img/twitter.jpg" alt="Twitter" class="nav__img">
                         <span class="nav__text">Twitter</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://www.notion.so/Andros-Fenollosa-c857c80fe9d54afa85c089ce2d9ef771" target="_blank" class="nav__link">
+                        <img src="img/cv.jpg" alt="Curriculum Vitae" class="nav__img">
+                        <span class="nav__text">CV</span>
                     </a>
                 </li>
                 <li class="nav__item">
