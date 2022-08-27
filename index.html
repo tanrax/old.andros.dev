@@ -56,7 +56,7 @@
                 show: '',
                 hash: window.location.hash
                 }"
-            x-init="$watch('hash', () => window.location.href = window.location.pathname)"
+            x-init="$watch('hash', () => window.history.pushState({}, '', '/'))"
         >
             <ul class="nav__ul">
                 <li class="nav__item">
