@@ -4,7 +4,24 @@
     --color-rojo: #F72C25;
     --color-verde: #99C1B9;
     --color-negro: #000;
+    --gradiente-rojo: #fa6f77;
+    --gradiente-morado: #bb75d9;
 }
+
+/* Animaciones */
+
+@keyframes gradient {
+    0% {
+        background-position: right bottom, 0% 50%;
+    }
+    50% {
+        background-position: right bottom, 100% 50%;
+    }
+    100% {
+        background-position: right bottom, 0% 50%;
+    }
+}
+
 
 /* Generales */
 
@@ -16,6 +33,11 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
+    background-image: url(../img/background.webp), linear-gradient(45deg, var(--gradiente-rojo), var(--gradiente-morado));
+    background-repeat: no-repeat;
+    background-position: center center, right bottom;
+    background-size: 500px 500px, 200% 200%;
+    animation: gradient 10s ease infinite;
 }
 
 /* Fin Generales */
@@ -32,7 +54,7 @@ body {
     font-family: 'Comforter Brush', cursive;
     font-weight: normal;
     text-align: center;
-    color: var(--color-rojo);
+    color: var(--color-blanco);
     font-size: 3rem;
     margin: 0;
 }
