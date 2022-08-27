@@ -64,19 +64,65 @@
                 <li class="nav__item">
                     <a href="https://don-clojure-de-la-mancha.es/" target="_blank" class="nav__link">
                         <img width="112" height="112" src="img/libro.webp" alt="Libro" class="nav__img">
-                        <span class="nav__text">Libro</span>
+                        <span class="nav__text">Libro 1</span>
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="https://republicaweb.es/" target="_blank" class="nav__link">
-                        <img width="112" height="112" src="img/podcast.webp" alt="Podcast" class="nav__img">
-                        <span class="nav__text">Podcast</span>
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="nav__link"
+                            @click.prevent="(
+                        show = 'subitemsBook2',
+                        $refs.subitemsProjects.focus(),
+                        $refs.subitemsProjects.scrollTo(0, 0)
+                        )"
+                    >
+                        <img width="112" height="112" src="img/libro-2.webp" alt="Podcast" class="nav__img">
+                        <span class="nav__text">Libro 2</span>
                     </a>
                 </li>
+                <ul
+                        class="nav__subitem"
+                        :class="show === 'subitemsBook2'? 'nav__subitem--show' : ''"
+                        x-ref="subitemsBook2"
+
+                >
+                    <li class="nav__item">
+                        <a href="https://www.packtpub.com/product/building-spas-with-django-and-html-over-the-wire/9781803240190" target="_blank" class="nav__link">
+                            <img width="112" height="112" src="img/packt.webp" alt="Editorial Packt" class="nav__img">
+                            <span class="nav__text">Packt</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.oreilly.com/library/view/building-spas-with/9781803240190/" target="_blank" class="nav__link">
+                            <img width="112" height="112" src="img/oreilly.webp" alt="Editorial O'Reilly" class="nav__img">
+                            <span class="nav__text">O’Reilly</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.amazon.es/Real-time-Django-over-Wire-Channels-ebook/dp/B0B3DV54ZT/" target="_blank" class="nav__link">
+                            <img width="112" height="112" src="img/amazon-es.webp" alt="Amazon.es" class="nav__img">
+                            <span class="nav__text">amazon.es</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.amazon.com/Real-time-Django-over-Wire-Channels-ebook/dp/B0B3DV54ZT/" target="_blank" class="nav__link">
+                            <img width="112" height="112" src="img/amazon-com.webp" alt="Amazon.com" class="nav__img">
+                            <span class="nav__text">amazon.com</span>
+                        </a>
+                    </li>
+                    <li
+                            class="nav__close"
+                            @click.prevent="show = ''"
+                    >
+                        <a href="https://github.com/tanrax/terminal-AdvancedNewFile" target="_blank" class="nav__link">❌</a>
+                    </li>
+                </ul>
                 <li class="nav__item">
-                    <a href="https://sapps.studio/" target="_blank" class="nav__link">
-                        <img width="112" height="112" src="img/estudio.webp" alt="Sapps Studio" class="nav__img">
-                        <span class="nav__text">Estudio</span>
+                    <a href="https://ccstech.io/" target="_blank" class="nav__link">
+                        <img width="112" height="112" src="img/ccstech-io.webp" alt="Sapps Studio" class="nav__img">
+                        <span class="nav__text">Trabajo</span>
                     </a>
                 </li>
                 <li class="nav__item">
