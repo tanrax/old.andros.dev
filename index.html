@@ -52,7 +52,11 @@
         </div>
         <nav
             class="nav main__nav"
-            x-data="{ show: '' }"
+            x-data="{
+                show: '',
+                hash: window.location.hash
+                }"
+            x-init="$watch('hash', () => window.location.href = window.location.pathname)"
         >
             <ul class="nav__ul">
                 <li class="nav__item">
@@ -84,7 +88,7 @@
                 </li>
                 <ul
                         class="nav__subitem"
-                        :class="show === 'subitemsBook2'? 'nav__subitem--show' : ''"
+                        :class="show === 'subitemsBook2' || hash === '#book2' ? 'nav__subitem--show' : ''"
                         x-ref="subitemsBook2"
 
                 >
@@ -114,7 +118,7 @@
                     </li>
                     <li
                             class="nav__close"
-                            @click.prevent="show = ''"
+                            @click.prevent="hash = '', show = ''"
                     >
                         <a href="https://github.com/tanrax/terminal-AdvancedNewFile" target="_blank" class="nav__link">❌</a>
                     </li>
