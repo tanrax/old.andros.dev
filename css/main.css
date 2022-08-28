@@ -110,11 +110,6 @@ body {
     text-align: center;
 }
 
-.nav__link:hover .nav__text {
-    transform: rotate(-90deg);
-    transform-origin: center -3.5rem;
-}
-
 .nav__link:hover .nav__img {
     border-width: 4px;
 }
