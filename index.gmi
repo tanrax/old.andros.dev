@@ -33,7 +33,7 @@ Tengo diversos trabajos que compagino. Por un lado soy CTO en un estudio de desa
 => https://programadorwebvalencia.com/ Portafolio
 => https://programadorwebvalencia.com/blog/ Blog
 => https://don-clojure-de-la-mancha.es/ Libro - Don Clojure de la Mancha: El ingenioso lenguaje funcional del paréntesis
-=> https://www.amazon.es/Real-time-Django-over-Wire-Channels-ebook/dp/B0B3DV54ZT/ Libro - Building SPAs with Django and =HTML Over the Wire: Learn to build real-time single page applications with Python
+=> https://www.amazon.es/Real-time-Django-over-Wire-Channels-ebook/dp/B0B3DV54ZT/ Libro - Building SPAs with Django and HTML Over the Wire: Learn to build real-time single page applications with Python
 => https://ccstech.io/ Trabajo
 => https://idecrea.es/ Formación presencial
 => https://programadorwebvalencia.com/cursos/ Formación online
