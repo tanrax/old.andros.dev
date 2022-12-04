@@ -1,0 +1,46 @@
+# Soy Andros Fenollosa
+
+## Director de tecnología, docente, escritor, dev, organizador de Python Valencia, bloguero y divulgador Web
+
+```
+                                                                                
+                                  ++#+%%@%===+                                  
+                                *#@@@@@@@@@@%@@@#*                              
+                              #@@@@@@@@@@@@@@@@@@@%#*+                          
+                             +@@@@@@@@@@@@@@@@@@@@@@@%+                         
+                            =#@@@@@@@@@@@@@@@@@@@@@@@@%#                        
+                            +@@@@@@@@@%%%%@@@@@@@@@@@@%%+                       
+                            #@@@**==++====*##%@@@@@@@@%#+                       
+                            =%@*..........:==+**#%@@@@%%+                       
+                            =%@* .  .......:--==+#@@@@##
+                             *@*:-::......:--==--*@@@%#+
+                              #+++#%#-..-#%%%%%*.-@@%#*+
+                              +-.-=++- .=##*%%#+: #*=++-
+                               - ....  .-==---==..*===-
+                               :       :=+=:::-: :-=::
+                               -   ....:===::--....::-
+                                : :*%%%%@%*#==- ..-
+                                +:%*-:-=##%@%++: .
+                                 *%-::-=+*#@@%#- 
+                                 *%*#%%%%%@@@#- :
+                                :-%%%%%%@@@@#--.:
+                                 :.=#%@@%%#+++
+```
+
+Tengo diversos trabajos que compagino. Por un lado soy CTO en un estudio de desarrollo de software. Compagina el tiempo con la docencia, formando a alumnos en tecnologías Web desde hace más de década. Por otro lado, escribo libros, mantengo varios proyectos Opensource relacionados con Python y programación funcional. Y para terminar escribo una newsletter semanal además de escribir en mi blog personal.
+
+=> https://soy.andros.dev/ Landing en HTTP
+=> https://programadorwebvalencia.com/ Portafolio
+=> https://programadorwebvalencia.com/blog/ Blog
+=> https://don-clojure-de-la-mancha.es/ Libro - Don Clojure de la Mancha: El ingenioso lenguaje funcional del paréntesis
+=> https://www.amazon.es/Real-time-Django-over-Wire-Channels-ebook/dp/B0B3DV54ZT/ Libro - Building SPAs with Django and =HTML Over the Wire: Learn to build real-time single page applications with Python
+=> https://ccstech.io/ Trabajo
+=> https://idecrea.es/ Formación presencial
+=> https://programadorwebvalencia.com/cursos/ Formación online
+=> https://github.com/tanrax/ GitHub
+=> https://youtube.com/@androsfenollosa YouTube
+=> https://hostux.social/web/@andros Mastodon
+=> https://twitter.com/androsfenollosa Twitter
+=> https://buttondown.email/infinita-recursion Newsletter - Infinita recursión: Retos semanales para devs.
+=> https://androsfenollosa.notion.site/Andros-Fenollosa-c857c80fe9d54afa85c089ce2d9ef771 Curriculum Vitae
+=> https://ko-fi.com/androsfenollosa/shop Infografías
