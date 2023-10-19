@@ -1,0 +1,17 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "type": "Page",
+  "name": "Blog Andros",
+  "summary": "Programación, Tutoriales, scripts y ovejas zombies.",
+  "outbox": "https://programadorwebvalencia.com/feed/outbox.json",
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://hostux.social/system/accounts/avatars/109/253/144/693/616/579/original/4499881f6c75a4b1.jpg"
+  },
+  "image": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://hostux.social/system/accounts/headers/109/253/144/693/616/579/original/9d036b92404098c8.jpg"
+  }
+}
