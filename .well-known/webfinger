@@ -1,0 +1,19 @@
+{
+  "subject":"acct:blog@soy.andros.dev",
+  "aliases":[
+    "https://soy.andros.dev/users/blog.json"
+    "https://soy.andros.dev/@blog",
+  ],
+  "links":[
+    {
+      "rel":"http://webfinger.net/rel/profile-page",
+      "type":"text/html",
+      "href":"https://blog.andros.dev"
+    },
+    {
+      "rel":"self",
+      "type":"application/activity+json",
+      "href":"https://soy.andros.dev/users/blog.json"
+    }
+  ]
+}
