@@ -4,7 +4,7 @@
     "type": "Page",
     "name": "Blog Andros",
     "summary": "Programación, Tutoriales, scripts y ovejas zombies.",
-    "outbox": "https://programadorwebvalencia.com/feed/outbox.json",
+    "outbox": "https://programadorwebvalencia.com/feed/outbox/first.json",
     "icon": {
 	"type": "Image",
 	"mediaType": "image/jpeg",
