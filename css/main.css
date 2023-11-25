@@ -37,7 +37,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center, right bottom;
     background-size: 500px 500px, 200% 200%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 5s ease infinite;
 }
 
 @media all and (max-width: 1158px) {
@@ -79,7 +79,7 @@ body {
 
 .nav__ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 2.5rem;
     padding: 0;
     list-style: none;
